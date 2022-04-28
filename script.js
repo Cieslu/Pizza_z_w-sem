@@ -780,7 +780,7 @@ const addOrderToBasket = function(){
    
     if(yourOwnPizzaIngredientsCheese.length !== 0 || yourOwnPizzaIngredientsMeat.length !== 0  || yourOwnPizzaIngredientsVegetable.length !== 0){
 
-        if(yourOwnPizzaIngredientsVegetable.length === 0 && yourOwnPizzaIngredientsMeat.length){
+        if(yourOwnPizzaIngredientsVegetable.length === 0 && yourOwnPizzaIngredientsMeat.length === 0){
 
             wholeOrder.push(`<span class="fw-bold">Rozmiar:</span> ${yourOwnPizzaIngredientsSize}`);
             wholeOrder.push(`<span class="fw-bold">Ciasto:</span> ${yourOwnPizzaIngredientsDough}`);
