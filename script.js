@@ -787,7 +787,7 @@ const addOrderToBasket = function(){
             wholeOrder.push(`<span class="fw-bold">Ser:</span> ${yourOwnPizzaIngredientsCheese}`);
             wholeOrder.push(`<span class="fw-bold">Sos do pizzy:</span> ${yourOwnPizzaIngredientsSauce}`);
         }
-        else if(yourOwnPizzaIngredientsMeatPIZZA.length === 0 ){
+        else if(yourOwnPizzaIngredientsMeat.length === 0 ){
 
             wholeOrder.push(`<span class="fw-bold">Rozmiar:</span> ${yourOwnPizzaIngredientsSize}`);
             wholeOrder.push(`<span class="fw-bold">Ciasto:</span> ${yourOwnPizzaIngredientsDough}`);
